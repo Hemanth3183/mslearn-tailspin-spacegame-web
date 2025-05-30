@@ -19,6 +19,9 @@ steps:
     packageType: sdk
     version: "6.x"
 
+- script: "npm install --force"
+  displayName: "Manual npm install forced"
+
 - task: Npm@1
   displayName: "Run npm install"
 
